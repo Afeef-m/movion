@@ -1,10 +1,18 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": "100",
       "name": "Afeef",
       "email": "afeefmaliyekkal135@gmail.com",
-      "password": "af12"
+      "password": "af135",
+      "role":"admin"
+    },
+    {
+      "id": "1",
+      "name": "Afeef",
+      "email": "afeef@gmail.com",
+      "password": "af12",
+      "role":"user"
     },
     {
       "id": "2",
