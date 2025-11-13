@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Afeef",
+      "email": "afeefmaliyekkal135@gmail.com",
+      "password": "af12"
+    },
+    {
+      "id": "2",
+      "name": "Sara",
+      "email": "sara01@gmail.com",
+      "password": "sara01"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Avengers: Endgame",
+      "rating": 8.9,
+      "poster": "https://imgs.search.brave.com/qXLB7w8r1y0bLDL0p82VKY9rwIX1k2nN7uAj4Qp_KBk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvdGh1bWJu/YWlsLzRrLWF2ZW5n/ZXJzLWVuZGdhbWUt/bW92aWUtcG9zdGVy/LXJoMXR0NWRmaXky/enc2YWwud2VicA",
+      "description": "After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos's actions and restore balance to the universe.",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Adventure"
+      ],
+      "duration": "3h 2m",
+      "releaseYear": 2019,
+      "showtimes": [
+        "10:00 AM",
+        "1:00 PM",
+        "6:00 PM"
+      ],
+      "screen": 1,
+      "ticketPrice": 200
+    },
+    {
+      "id": "2",
+      "title": "Oppenheimer",
+      "rating": 9.2,
+      "poster": "https://imgs.search.brave.com/zd720dpV3Z9fn9J98TEBCP2-9zGFy3vzMYPE_pkW-eo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjZy5jb20v/bWVkaWEvdHNfb3Jp/Zy8yMjU5MS53ZWJw",
+      "description": "A biographical thriller exploring the story of J. Robert Oppenheimer, the scientist behind the atomic bomb.",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "duration": "3h 0m",
+      "releaseYear": 2023,
+      "showtimes": [
+        "11:00 AM",
+        "2:00 PM",
+        "7:00 PM"
+      ],
+      "screen": 2,
+      "ticketPrice": 250
+    },
+    {
+      "id": "3",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "rating": 8.7,
+      "poster": "https://imgs.search.brave.com/Spq8G-xy0y8ZyA9X1aZc_XxS2F7mSx7K_XNZo8bBoTI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/aGQubnUvZmlsZXMv/aW1nL3NwZW50YWN1/bGFyLXNwaWRlcm1h/bi1hY3Jvc3MtdGhl/LXNwaWRlci12ZXJz/ZS1wb3N0ZXItMTY5/NjEwMjk2Ny5qcGc",
+      "description": "Miles Morales embarks on an epic adventure across the multiverse, teaming up with Gwen Stacy and other Spider-People.",
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "duration": "2h 20m",
+      "releaseYear": 2023,
+      "showtimes": [
+        "9:00 AM",
+        "12:00 PM",
+        "5:00 PM"
+      ],
+      "screen": 3,
+      "ticketPrice": 180
+    }
+  ],
+  "screens": [
+    {
+      "id": "1",
+      "name": "Screen 1",
+      "totalSeats": 60,
+      "seatMap": {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "cols": 10
+      }
+    },
+    {
+      "id": "2",
+      "name": "Screen 2",
+      "totalSeats": 50,
+      "seatMap": {
+        "rows": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "cols": 10
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": 1,
+      "movieId": 1,
+      "screen": 1,
+      "showtime": "1:00 PM",
+      "seats": [
+        "B4",
+        "B5",
+        "B6"
+      ],
+      "date": "2025-11-12",
+      "totalPrice": 600
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "movieId": 2,
+      "screen": 2,
+      "showtime": "7:00 PM",
+      "seats": [
+        "C1",
+        "C2"
+      ],
+      "date": "2025-11-13",
+      "totalPrice": 500
+    }
+  ]
+}
